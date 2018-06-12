@@ -1,5 +1,5 @@
-# cms-project
-Drupal project for the HS-Flensburg Device Lab
+# Content-Management-Systeme Semesterprojekt
+Umsetzung einer komplexen Webseite mit Drupal für das Device Lab der HS-Flensburg.
 
 ## VM Konfigurieren
 Um vernünftig auf VM Instanz arbeiten zu können, hinterlegen wir anfangs unsere SSH Public Keys auf dem Server.
