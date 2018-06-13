@@ -14,9 +14,9 @@ Sind wir mit dem Server verbunden, erstellen wir eine Datei `authorized_keys` im
 
 #### Services
 
-`sudo service --status-all`
-`sudo service nginx restart`
-`sudo service php restart`
+- `sudo service --status-all`
+- `sudo service nginx restart`
+- `sudo service php restart`
 
 ## Deployment
 
