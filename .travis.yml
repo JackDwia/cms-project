@@ -1,4 +1,5 @@
 ---
+language: php
 addons:
   ssh_known_hosts: "193.175.181.130"
 before_deploy:
