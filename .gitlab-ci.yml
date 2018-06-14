@@ -1,1 +1,18 @@
+stages:
+  - deploy
 
+deploy:
+  stage: deploy
+  tags:
+    - gitlab-org
+  only:
+    - master
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - eval `ssh-agent -s`
+    - ssh-add
+    - >
+      rsync -av -e "ssh"
+      test/site.html
+      jasc7047@193.175.181.130:/var/www/cmsha/web/"
