@@ -17,6 +17,10 @@ files/
 sites/*/files
 sites/*/private
 
+core/
+
+.env.example
+
 # Ignore default text files
 robots.txt
 /CHANGELOG.txt
